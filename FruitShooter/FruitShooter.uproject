@@ -1,28 +1,33 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.0",
+	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
-		{
-			"Name": "ResonanceAudio",
-			"Enabled": true
-		},
 		{
 			"Name": "OpenXR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"Linux",
-				"Android",
-				"HoloLens"
+				"Android"
 			]
 		},
 		{
-			"Name": "OculusVR",
+			"Name": "OpenXREyeTracker",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "OpenXRHandTracking",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
 				"Android"
 			]
 		}
